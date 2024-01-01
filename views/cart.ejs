@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/database.css" />
+  </head>
+  <body>
+    <h1 class="text-center my-3">Your Cart:</h1>
+    <div class="mp">
+      <table>
+        <% if(cart.length>0){%>
+        <tr>
+          <th class="gh">Product</th>
+
+          <th class="mx-2">Quantity</th>
+          <th class="mx-2">Unit Cost</th>
+          <th class="mx-2">Total Cost</th>
+        </tr>
+        <% let total=0; cart.forEach(item=>{ %>
+        <tr>
+          <td>
+            <img src="/<%=item.imageaddr%>" height="150" width="150" alt="" />
+            <h5><%=item.name %></h5>
+          </td>
+          <td>
+            <div class="mg">
+              <form action="/cart-/<%=item.name%>" method="get">
+                <button class="btn" type="submit">
+                  <b>-</b>
+                </button>
+              </form>
+              <p class="my-2"><%=item.qty%></p>
+              <form action="/cart/<%=item.name%>" method="get">
+                <button class="btn" type="submit">
+                  <b>+</b>
+                </button>
+              </form>
+            </div>
+          </td>
+          <td><%= item.cost%></td>
+          <td><%= (item.qty) * item.cost%></td>
+          <td></td>
+        </tr>
+        <% total+=(item.qty)*item.cost}) %>
+        <tr>
+          <td colspan="3" aling="right"><b>Total</b></td>
+          <td>
+            <a href="/success"
+              ><button class="btn btn-success">&#8377;<%=total%></button></a
+            >
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <% }else{ %>
+        <tr>
+          <td><h3>No Items Found</h3></td>
+        </tr>
+        <%}%>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+.menu{
+ width:96%;
+ margin-left:2%;
+ margin-top:2.4%;
+ height:80%;
+ display:flex;
+}
+
+.menu1{
+    margin-left: 1%;
+}
+.trp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.qty{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.qtr{
+    display:flex;
+    flex-wrap:wrap;
+}
+.mp{
+    margin-left: 40%;
+    margin-right: 40%;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+@media only screen and (max-width: 600px) {
+    .mp {
+      margin-left: 0;
+    }
+  }
+
+.mg{
+ display:flex;
+
+
+}
+
+
+.tejo{
+    display: flex;
+    justify-content: space-between;
+   
+}
+

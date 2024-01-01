@@ -1,0 +1,414 @@
+
+.fullscreen {
+   height: 757px;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-black-meat-western-food-banner-background-image_194600.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+     }
+
+.fullscreen .text-center{
+  font-size: 65px;
+  height:100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 1000;
+  color: white;
+
+}
+.fullscreen .hero_content{
+   height:385px;
+   width: 386px;
+   display: flex;
+   flex-direction: column;
+ margin-left:37%;
+ margin-top: 6%;
+    color: green;
+}
+
+
+
+
+.fullscreen .hero_content .rest{
+  margin-top: 0%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 75px;
+  color:yellow;
+}
+.fullscreen h3{
+  font-family: 'Red Hat Text', sans-serif;
+
+}
+.fullscreen .butt{
+  margin-right:40%;
+  margin-left:10%;
+  margin-top: 5%;
+  width: 50%;
+  height: 12%;
+  font-size: 23px;
+  border-color: white;
+  border-radius: 4%;
+
+}
+
+
+.navbar-nav .nav-link.active
+{
+  font-size:30px;
+  color:whitesmoke;
+  font-weight: 100%;
+}
+
+
+
+.veera{
+  height: 27%;
+  width:70%;
+  margin-left:17%;
+  padding-top: 1%;
+  color: green;
+  margin-bottom: 2%;
+  font-size: medium;
+  
+
+
+
+}
+.veera h3{
+  font-family: 'Red Hat Text', sans-serif;
+  margin-left: 15%;
+}
+
+.tej{
+  display: flex;
+  width:70%;
+  height:24%;
+  margin-left:16%;
+ justify-content: space-between;
+ flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.q {
+  
+  
+  width: 30%;
+  margin-left: 2.9%;
+  margin-right:2.9%;
+}
+.pop{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -20%;
+
+}
+
+.pop1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.rgv{ 
+  background-color: #e5e5e5;
+  height: 490px;
+  
+
+  
+    
+  
+  
+
+}
+
+
+
+@media(max-width:750px){
+  .card:not(:first-child){
+    display: none;
+  }
+  
+}
+
+
+
+.rakesh{
+  
+    margin-right: 15%;
+    margin-top: 3%; 
+    margin-bottom: 5%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+ }
+ 
+ 
+.red{
+  font-style: normal;
+  font-weight:700;
+  font-size:200%;
+  padding-top: 1%;
+  margin-top: 20%;
+
+}
+.redi{
+  font-style: normal;
+  font-weight:700;
+  font-size:200%;
+  padding-top: 1%;
+}
+.mohan{
+  
+  font-style: normal;
+  font-weight: 600;
+  height:350px;
+  width:30%;
+  margin-left: 35%; 
+  border: solid 4px;
+  border-color:#e8c804;
+  margin-top: 1%;
+ 
+}
+.mohan input { 
+   display: inline-block;
+  width:50%;
+  margin-top: 5%;
+  margin-left: 26%;
+ }
+ .jk:hover{
+  background-color: white;
+ }
+ .mohan:hover{
+  border-color:rosybrown;
+ }
+
+
+ .deer{
+  height:600%;
+  background-color:lightblue;
+ 
+  margin-top: 5%;
+ flex-wrap: wrap;
+ font-size: 100%;
+ display: flex;
+
+ 
+}
+.tj{
+ font-style: normal;
+ font-weight:700;
+ font-size:200%;
+ margin-left: 40%;
+
+ margin-top: 2%;
+
+}
+
+.ty{
+color: #3c3c3c;
+ font-style: normal;
+ font-weight:500;
+ font-size:170%;
+ margin-top: 1%;
+ margin-bottom: 3%;
+}
+@media(max-width:750px){
+  .ty{
+    font-size:100%;
+  }
+  
+}
+
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 500px;
+  color:black;
+  font-size:200%;
+  font-weight: 100;
+
+
+}
+.close:hover {
+  color: #000;
+  cursor: pointer;
+}
+.close {
+  color: #aaaaaa;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 95%;
+}
+.foot{
+
+ height: 500px;
+ margin-top: 3%;
+ 
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.zd :hover{
+    color:rgb(255, 0, 0);
+}
+.z1 :hover{
+ color:#0165E1;
+}
+.z2 :hover{
+  color:#000000;
+}
+.z3 :hover{
+  color:#E4405F;
+}
+.over{
+ 
+ 
+ display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ 
+ 
+
+}
+.xyz{
+  height:10%;
+  width:100%;
+
+  
+  
+  
+  
+}
+.xyz ul{
+  margin-top: 3%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 160%;
+  font-weight: 400;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+  
+}
+
+
+
+
+
+.xyz a{
+text-decoration:none;
+color: #0165E1;
+
+}
+.avaliable{
+  height: 300px;
+  width:500px;
+ 
+  
+ 
+  margin-top:1%;
+  
+
+
+}
+.avaliable ul{
+  list-style-type: none;
+  padding: 0%;
+  margin:0%;
+}
+.avaliable .anch{
+  color:yellowgreen;
+  text-decoration: none;
+  margin-left:0%;
+  font-size:111%;
+  font-weight: 90%;
+}
+ .avaliable a{
+  text-decoration: none;
+}
+.gz{
+   
+  margin-top: 1%;
+  font-size:140%;
+  font-weight: 60%;
+  
+}
+.un{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height:45%;
+  
+  
+  margin-top: 1%;
+  justify-content: space-around;
+}
+@media(max-width:750px){
+  .xyz{
+    display: none;
+  }
+  
+}
+.game{
+  width:100%;
+  height:21%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(76,70,70);
+  justify-content: center;
+  align-items: center;
+ 
+}
+.tname{
+  
+  font-size:150%;
+  font-weight:100;
+  color:white;
+  display: flex; 
+}
+@media(max-width:750px){
+  .un{
+    height:70%;
+  }
+  
+}
+.mov{
+  margin-left: 98%;
+  position: fixed;
+}
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+

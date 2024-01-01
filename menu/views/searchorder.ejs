@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu-Search</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/database.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="mt-4">Items Based on Your Search Results</h2>
+      <div class="trp">
+        <% for(let c of menudata1) { %>
+
+        <div class="card m-3" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="/<%= c.imageaddr %>"
+            alt="Card image cap"
+            height="240"
+            width="230"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><%= c.name%></h5>
+            <div class="tejo">
+              <div class="qty">
+                <button class="btn btn-primary">&#8377;<%= c.cost %></button>
+              </div>
+
+              <form method="get" action="/cart/<%= c.name%>">
+                <button type="submit" class="btn btn-outline-success">
+                  Add to cart
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </body>
+</html>
